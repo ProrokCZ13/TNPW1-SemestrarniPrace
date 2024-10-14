@@ -22,13 +22,46 @@
     <a href="src/html/servis.html"><button>Servis</button></a>
     <a href="src/html/about.html"><button>O nás</button></a> 
    </nav>
+   <div class="slideshow-container">
 
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+      <div class="text">Máme super rychný internet</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+      <div class="text">Internetová televize nové generace</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+      <div class="text">Spravíme vám vše od notebooku po mobil</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+
+   </div>
    <main>
     <div id="kecy">let me die pls</div>
    </main>
 
    <footer>
-    <p>&trade; Vojtěch Černý 2024</p>
+    <p>Tato stránka byla vytvořena za účelem semestrální práce pro přemět Technologie publikování webu<br> &trade; Vojtěch Černý 2024</p>
    </footer>
 
 <script src="src/js/main.js"></script>
