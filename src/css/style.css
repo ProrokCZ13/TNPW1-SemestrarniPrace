@@ -8,14 +8,15 @@
 }
 body{
   background-color: rgb(54,57,90);
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-
 nav,main,h1{
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
 }
-
 h1{
   font-size: 45px;
   border-radius: 16px;
@@ -24,7 +25,6 @@ img{
   max-width: 250px;
   max-height: 250px;
 }
-
 #kecy{
   border: solid black;
   border-radius: 10px;
@@ -74,7 +74,10 @@ button{
 }
 
 button:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-shadow: #D6D6E7 0 0 0 1.5px inset,
+              rgba(45, 35, 66, 0.4) 0 2px 4px,
+              rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+              #D6D6E7 0 -3px 0 inset;
 }
 
 button:hover {
@@ -89,7 +92,7 @@ button:active {
 
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* Slideshow */
 .slideshow-container {
   background-image: url(/src/img/Slides_back.jpg);
   border: solid black;
@@ -102,12 +105,10 @@ button:active {
   text-align: right;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Caption text */
 .text {
   font-size: 25px;
   padding: 8px 12px;
@@ -118,7 +119,6 @@ button:active {
   max-width: 50%;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -129,12 +129,12 @@ button:active {
   to {opacity: 1}
 }
 
-/*logo spin*/
+/* logo spin */
 #logo{
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   animation-name: spin;
-  animation-duration: 5000ms;
+  animation-duration: 7000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
 }
@@ -152,5 +152,10 @@ button:active {
 @media screen and (max-width: 500px) {
   body{
     background-color: aqua;
+  }
+
+  button{
+    width: 100%;
+    margin: 3px;
   }
 }
