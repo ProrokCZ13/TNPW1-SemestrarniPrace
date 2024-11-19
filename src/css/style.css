@@ -38,6 +38,9 @@ img{
   margin-top: 1em;
   font-size: 21px;
 }
+#price{
+  font-size: 36px;
+}
 table{
   width: 100%;
   text-align: left;
@@ -120,13 +123,18 @@ button:active {
 
 .text {
   font-size: 35px;
-  padding: 8px 12px;
+
   position: absolute;
   bottom: 25%;
   width: 50%;
   text-align: left;
   max-width: 50%;
   flex-wrap: wrap;
+}
+
+.banner-image{
+  position: relative;
+  flex-wrap: nowrap;
 }
 
 .fade {
@@ -170,8 +178,9 @@ button:active {
     margin: 4%;
   }
   .slideshow-container{
-    max-height: 70%;
+    height: 70%;
   }
+  
   
 
 }
