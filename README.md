@@ -8,5 +8,4 @@ Podmínky:<br>
 Musí obsahovat:<br>
 -Formulář<br>
 -Foto galerie<br>
-Bonus:<br>
--Cookie clicker<br>
+
