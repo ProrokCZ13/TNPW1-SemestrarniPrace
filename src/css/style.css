@@ -16,13 +16,14 @@ nav{
   padding: 3%;
   width: 100%;
 }
+main{
+  width: 100%;
+  background-color: #292b45;
+}
 h1{
   font-size: 45px;
   border-radius: 16px;
   text-align: center;
-}
-h2{
-  right: 0;
 }
 #declaration{
 text-align: center;
@@ -38,13 +39,41 @@ img{
   margin-top: 1em;
   font-size: 21px;
 }
+/*tables*/
+#deals{
+  background-color: #292b45;
+  width: 100%;
+  padding: 10px;
+}
 #price{
-  font-size: 36px;
+  font-size: 26px;
+}
+#priceHead{
+  background-color: green;
+}
+#tableName{
+  font-size: 30px;
 }
 table{
   width: 100%;
   text-align: left;
 }
+th{
+  padding-left: 10;
+}
+tr:nth-child(odd) {
+  background-color: #1c1e2d;
+}
+/*Contact*/
+#contact{
+  margin-top: 1em;
+  background-color: #292b45;
+  width: 100%;
+}
+#info{
+  right: 55%;
+}
+/*footer*/
 footer{
   background-color: #292b45;
   width: 100%;
@@ -123,7 +152,6 @@ button:active {
 
 .text {
   font-size: 35px;
-
   position: absolute;
   bottom: 25%;
   width: 50%;
@@ -180,9 +208,6 @@ button:active {
   .slideshow-container{
     height: 70%;
   }
-  
-  
-
 }
 
 
