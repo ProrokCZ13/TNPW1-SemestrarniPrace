@@ -16,10 +16,6 @@ nav{
   padding: 3%;
   width: 100%;
 }
-main{
-  width: 100%;
-  background-color: #292b45;
-}
 h1{
   font-size: 45px;
   border-radius: 16px;
@@ -69,10 +65,32 @@ tr:nth-child(odd) {
   margin-top: 1em;
   background-color: #292b45;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5em;
 }
 #info{
-  right: 55%;
+  padding: 10px;
+  font-size: 29px;
+} 
+#phone{
+  color: aqua;
 }
+/*Form*/
+form{
+  background-color: #292b45;
+  text-align: center;
+  margin-top: 1em;
+}
+input{
+  color: black;
+  height: 55px;
+  font-size: 45px;
+  width: 55%;
+  margin: 10px;
+  text-align: center;
+}
+
 /*footer*/
 footer{
   background-color: #292b45;
@@ -111,8 +129,8 @@ button{
   will-change: box-shadow,transform;
   font-size: 18px;
   width: 18%;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 button:focus {
@@ -175,7 +193,7 @@ button:active {
   to {opacity: 1}
 }
 
-/* logo spin */
+/* logo && spin */
 #logo{
   width: 100px;
   height: 100px;
