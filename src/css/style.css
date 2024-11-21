@@ -98,7 +98,22 @@ input{
   font-size: 45px;
   width: 55%;
   margin: 10px;
+}
+select, option{
+  color: black;
+  height: 55px;
+  font-size: 45px;
+  width: 55%;
+  margin: 10px;
   text-align: center;
+}
+label{
+  font-size: 35px;
+}
+#textForm{
+  height: 550px;
+  font-size: 32px;
+  text-align: top;
 }
 
 /*footer*/

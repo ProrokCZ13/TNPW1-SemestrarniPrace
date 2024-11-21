@@ -23,12 +23,26 @@
    </nav>
    <main>
     <form>
-      <input id="name" type="text" title="email">
-      <input id="mail" type="email">
-      <input id="phoneNum" type="number">
-      <input id="object" type="text">
-      <input id="textForm" type="text">
+      <label>Jméno a příjmení</label><br>
+      <input id="name" type="text" title="email" placeholder="Jan Novák"><br>
+      <label>E-mail</label><br>
+      <input id="mail" type="email" placeholder="Ouroboros@email.cz"><br>
+      <label>Tel. číslo</label><br>
+      <input id="phoneNum" type="tel" placeholder="123 456 789"><br>
+      <label>Typ zprávy</label><br>
+      <select id="object">
+        <option value="">Dotaz</option>
+        <option value="">Problém s internetem</option>
+        <option value="">Servis</option>
+        <option value="">Servis doba</option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value="">Stížnost</option>
+      </select><br>
+      <label>zpráva</label><br>
+      <input id="textForm" type="text"><br>
       <input id="subForm" type="submit">
+      <p>snažíme se co nejrychleji odpovídat</p>
     </form>
    </main>
 
