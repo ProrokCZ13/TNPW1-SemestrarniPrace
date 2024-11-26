@@ -276,59 +276,69 @@ button:active {
 }
 
 /* Responsivity */
-@media screen and (max-width: 500px) {
-  button{
-    width: 90%;
-    margin: 4%;
-  }
-  .slideshow-container{
-    height: 70%;
-  }
-
-  #footerInfo{
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  button{
-    width: 90%;
-    margin: 4%;
-  }
-  .banner-image{
-    display: block;
-    margin: 0 auto;
-  }
-  .text{
-    margin-top: 15px;
-    font-size: 18px;
-  }
-  iframe{
-    width: 100%;
-  }
-}
 
 @media screen and (max-width: 320px) {
   button{
     width: 90%;
     margin: 4%;
   }
-  .mySlides{
-    height: 550px;
+  .slideshow-container{
+    height: 500px;
+  }
+  .text{
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    left: 23%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  button{
+    width: 90%;
+    margin: 4%;
+  }
+  .slideshow-container{
+    height: 500px;
+  }
+  .text{
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    left: 23%;
+  }
+}
+
+
+@media screen and (max-width: 426px) {
+  button{
+    width: 90%;
+    margin: 4%;
+  }
+  .slideshow-container{
+    height: 500px;
   }
   .banner-image{
     display: block;
     margin: 0 auto;
-    
   }
   .text{
     font-size: 32px;
-    text-align: left;
-    max-width: 100%;
-    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    left: 23%;
+  }
+  #price{
+    font-size: 20px;
+    text-align: center;
+  }
+  #footerInfo{
+    grid-template-columns: 1fr 1fr;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   button{
