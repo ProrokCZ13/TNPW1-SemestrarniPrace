@@ -220,6 +220,8 @@ button:active {
   padding: 30px;
   text-align: right;
   margin-top: 1em;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .mySlides {
@@ -347,5 +349,9 @@ button:active {
     height: 80px;
     padding: 5px;
     font-size: 36px;
+  }
+  .slideshow-container{
+    padding-left:0%;
+    padding-right:0% ;
   }
 }
