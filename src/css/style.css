@@ -29,12 +29,29 @@ img{
   max-width: 250px;
   max-height: 250px;
 }
-#kecy{
+/*About*/
+
+#about{
   border: solid black;
   border-radius: 10px;
   padding: 10px;
   margin-top: 1em;
   font-size: 21px;
+}
+#aboutImgText{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+#aboutText{
+  flex: 2;
+  margin-right: 20px;
+}
+#aboutImg{
+  flex: 1;
+  text-align: right;
 }
 /*tables*/
 #deals{
@@ -91,6 +108,8 @@ iframe{
   padding-bottom: 1em;
   margin-left: 6%;
   display: flex;
+  width: 50%;
+  height: 600;
 }
 .FormButton{
 
@@ -273,6 +292,12 @@ button:active {
   height:40px ;
 }
 
+#logoThree{
+  flex: 1;
+  margin-right: 10%;
+}
+
+
 @keyframes spin {
   from {
       transform:rotate(0deg);
@@ -356,7 +381,7 @@ button:active {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   button{
     width: 90%;
     margin: 4%;
@@ -365,7 +390,7 @@ button:active {
     font-size: 36px;
   }
   .slideshow-container{
-    padding-left:0%;
-    padding-right:0% ;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
