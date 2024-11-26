@@ -54,6 +54,7 @@ img{
 table{
   width: 100%;
   text-align: left;
+  border-collapse: collapse;
 }
 th{
   padding-left: 10;
@@ -67,6 +68,7 @@ tr:nth-child(even) {
 }
 /*Contact*/
 #contact{
+  display: flex;
   margin-top: 1em;
   background-color: #292b45;
   width: 100%;
@@ -75,6 +77,7 @@ tr:nth-child(even) {
   padding-right: 5em;
 }
 #info{
+  display: block;
   font-weight: 200;
   padding: 10px;
   font-size: 29px;
@@ -84,8 +87,10 @@ tr:nth-child(even) {
   color: aqua;
 }
 iframe{
-  padding-top: 3em;
+  padding-top: 2em;
+  padding-bottom: 1em;
   margin-left: 6%;
+  display: flex;
 }
 .FormButton{
 
@@ -339,6 +344,15 @@ button:active {
   }
   #footerInfo{
     grid-template-columns: 1fr 1fr;
+  }
+  iframe{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  #info{
+    display: block;
+    margin-top: 10px;
   }
 }
 
