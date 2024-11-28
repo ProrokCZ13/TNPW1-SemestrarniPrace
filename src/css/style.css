@@ -114,8 +114,8 @@ iframe{
   width: 50%;
   height: 600;
 }
-.FormButton{
-
+#formButton{
+  width: 100%;
 }
 
 
@@ -228,7 +228,9 @@ button:focus {
 }
 
 button:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+              rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+              #D6D6E7 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
@@ -369,10 +371,7 @@ button:active {
     bottom: 10px;
     left: 23%;
   }
-  #price{
-    font-size: 20px;
-    text-align: center;
-  }
+  
   #footerInfo{
     grid-template-columns: 1fr 1fr;
   }
@@ -435,8 +434,7 @@ button:active {
     color: white;
   }
   
-  .price th,
-  .price td {
+  .price th, .price td {
     text-align: left;
   }
   
@@ -450,8 +448,7 @@ button:active {
     border-color: #bfbfbf;
   }
   
-  .price th,
-  .price td {
+  .price th, .price td {
     padding: .5em 1em;
   }
 
@@ -474,4 +471,5 @@ button:active {
     padding-left: 3%;
     padding-right: 3%;
   }
+  
 }
