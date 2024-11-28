@@ -132,13 +132,12 @@ input{
   width: 55%;
   margin: 10px;
 }
-select, option{
+select, option, textarea{
   color: black;
   height: 55px;
   font-size: 45px;
   width: 55%;
   margin: 10px;
-  text-align: center;
 }
 label{
   font-size: 35px;
