@@ -455,6 +455,12 @@ button:active {
   .price td {
     padding: .5em 1em;
   }
+
+  input, select, option, textarea{
+    width: 90%;
+    margin: 4%;
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 769px) {
