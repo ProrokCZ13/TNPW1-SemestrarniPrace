@@ -65,10 +65,10 @@ img{
 .price{
   font-size: 26px;
 }
-#priceHead{
+.priceHead{
   background-color: green;
 }
-#tableName{
+.tableName{
   font-size: 30px;
 }
 table{
@@ -77,7 +77,7 @@ table{
   border-collapse: collapse;
 }
 th{
-  padding-left: 10;
+  padding-left: 10px;
   width: 25%;
 }
 tr:nth-child(odd) {
@@ -103,7 +103,7 @@ tr:nth-child(even) {
   font-size: 29px;
   font-weight: 500;
 } 
-#phone{
+.phone{
   color: aqua;
 }
 iframe{
@@ -112,7 +112,7 @@ iframe{
   margin-left: 6%;
   display: flex;
   width: 50%;
-  height: 600;
+  height: 600px;
 }
 #formButton{
   width: 100%;
@@ -145,7 +145,6 @@ label{
 #textForm{
   height: 550px;
   font-size: 32px;
-  text-align: top;
   vertical-align: top;
   line-height: normal;
   padding: 5px 10px;
@@ -303,6 +302,10 @@ button:active {
 #logoThree{
   flex: 1;
   margin-right: 10%;
+  animation-iteration-count: infinite;
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-timing-function: linear;
 }
 
 
@@ -357,6 +360,7 @@ button:active {
     width: 90%;
     margin: 4%;
   }
+  /*res slideshow*/
   .slideshow-container{
     height: 500px;
   }
@@ -375,15 +379,6 @@ button:active {
   #footerInfo{
     grid-template-columns: 1fr 1fr;
   }
-  iframe{
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  #info{
-    display: block;
-    margin-top: 10px;
-  }
   #aboutText{
     font-size: 32px;
     text-align: center;
@@ -391,6 +386,7 @@ button:active {
     bottom: 10px;
   }
 
+  /*res table*/
   .price {
     margin: auto;
     min-width: 300px;
@@ -452,11 +448,33 @@ button:active {
     padding: .5em 1em;
   }
 
+  /*res table*/
   input, select, option, textarea{
     width: 90%;
     margin: 4%;
     font-size: 32px;
   }
+
+
+  /*res contact*/
+  iframe{
+    text-align: center;
+    width: 90%;
+    height: 400px;
+  }
+  #info{
+
+    text-align: center;
+    font-size: 22px;
+    padding-left: 30px;
+  }
+  #contact{
+    height: 1000px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+
 }
 
 @media screen and (max-width: 769px) {
