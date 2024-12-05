@@ -61,11 +61,12 @@ img{
   background-color: #292b45;
   width: 100%;
   padding: 10px;
+  margin-top: 20px;
 }
 .price{
   font-size: 26px;
 }
-.priceHead{
+#priceHead{
   background-color: green;
 }
 .tableName{
@@ -177,16 +178,6 @@ h3 {
   border-bottom: 1px solid #444;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin-bottom: 5px;
-}
-
-
 /*navigation buttons*/
 button{
   align-items: center;
@@ -241,7 +232,7 @@ button:active {
 
 /* Slideshow */
 .slideshow-container {
-  background-image: url(/src/img/Slides_back.jpg);
+  background-image: url(./../img/Slides_back.jpg);
   border: solid black;
   border-radius: 16px;
   max-width: 100%;
@@ -448,7 +439,7 @@ button:active {
     padding: .5em 1em;
   }
 
-  /*res table*/
+  /*res form*/
   input, select, option, textarea{
     width: 90%;
     margin: 4%;
@@ -473,7 +464,13 @@ button:active {
     flex-wrap: wrap;
     padding: 10px;
   }
-
+  /*res About*/
+  #aboutImgText {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
 
 }
 
