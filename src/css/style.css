@@ -50,6 +50,7 @@ img{
 #aboutText{
   flex: 2;
   margin-right: 20px;
+  margin-leftt: 20px;
 }
 #aboutImg{
   flex: 1;
