@@ -45,6 +45,7 @@ img{
   justify-content: space-between;
   padding-left: 18%;
   padding-right: 18%;
+  font-size: 30px;
 }
 #aboutText{
   flex: 2;
